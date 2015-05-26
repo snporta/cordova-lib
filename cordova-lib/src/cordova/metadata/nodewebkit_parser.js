@@ -29,7 +29,7 @@ var fs = require('fs'),
 function nodewebkit_parser(project) {
 
     // Call the base class constructor
-    Parser.call(this, 'nodewebkit', project);
+    Parser.call(this, 'nw', project);
 
     this.path = project;
 }
