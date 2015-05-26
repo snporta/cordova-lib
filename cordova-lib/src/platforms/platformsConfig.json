@@ -71,9 +71,9 @@
         "url": "https://git-wip-us.apache.org/repos/asf?p=cordova-browser.git",
         "version": "3.6.0"
     },
-	"browser": {
-        "parser_file": "../cordova/metadata/browser_parser",
-        "handler_file": "../plugman/platforms/browser",
+	"nw": {
+        "parser_file": "../cordova/metadata/nodewebkit_parser",
+        "handler_file": "../plugman/platforms/nodewebkit",
         "url": "git@github.com:snporta/cordova-lib.git",
         "version": "1.0"
     }
